@@ -1,0 +1,205 @@
+.project-hero-container {
+    height: 80vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.288), rgba(0, 0, 0, 0.712)), url('../../assets/img/animals/africa_cheetah4.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-hero-content {
+    margin: 0 auto;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.356);
+    padding: 2em;    
+}
+
+.project-hero-content h1 {
+    padding-top: 1em;
+    font-size: 3rem;
+    color: white;
+}
+
+.project-hero-content p {
+    color: white;
+    padding: 2em 0;
+}
+
+.quote-container {
+    padding: 2em;
+    background-color: var(--clr-darkergrey);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-content {
+    width: 60%;
+    font-family: "Nanum Myeongjo", serif;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: bold;
+    color: var(--clr-olivegreen);
+    text-align: center;
+}
+
+.china-container {
+    padding: 2em;
+    background-color: var(--clr-olivegreen);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.china-content img {
+    width: 50%;
+    padding-right: 2em;
+}
+
+.resp-content img {
+        width: 100%;
+        display: none;
+}
+
+.china-content {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.china-content h2 {
+    padding: 20px 0;
+    color: var(--clr-darkergrey);
+}
+
+.china-content p {
+    padding: 15px 0;
+    color: var(--clr-darkergrey);
+}
+
+.btn-proj-seemore {
+    background-color: var(--clr-darkgrey);
+    color: white;
+    padding: 1em;
+    border: none;
+}
+
+.btn-proj-seemore:hover {
+    background-color: var(--clr-green);
+    transition: 0.3s;
+}
+
+.africa-container {
+    padding: 2em;
+    background-color: var(--clr-lightolivegreen);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.africa-content {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.africa-content img {
+    width: 50%;
+    padding-left: 2em;
+}
+
+.africa-content h2 {
+    padding: 20px 0;
+    color: var(--clr-darkergrey);
+}
+
+.africa-content p {
+    padding: 15px 0;
+    color: var(--clr-darkergrey);
+}
+
+.next-container {
+    padding: 2em;
+    background-color: var(--clr-olivegreen);
+    text-align: center;
+}
+
+.next-content {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.next-content h2 {
+    padding: 20px 0;
+    color: var(--clr-darkergrey);
+}
+
+.next-content p {
+    padding: 15px 0;
+    color: var(--clr-darkergrey);
+}
+
+/* ----------- BILDER */
+
+.china-img-container {
+    width: 100%; 
+    overflow-x: hidden;
+}
+
+.china-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.china-img img {
+    width: 16.666%;
+}
+
+.africa-img-container {
+    width: 100%; 
+    overflow-x: hidden;
+}
+
+.africa-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.africa-img img {
+    width: 16.666%;
+}
+
+@media screen and (max-width: 768px) {
+    .china-img img {
+        width: 33.33%;
+    }
+    .africa-img img {
+        width: 33.33%;
+    }
+    .project-hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .china-content img {
+        display: none;
+    }
+
+    .africa-content img {
+        display: none;
+    }
+
+    .resp-content img {
+        display: flex;
+      }
+
+    /* .resp-china-content img {
+        width: 100%;
+    } */
+}

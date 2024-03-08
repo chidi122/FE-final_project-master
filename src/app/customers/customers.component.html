@@ -1,0 +1,33 @@
+<div class="clients-hero">
+    <div class="clients-hero-content">
+        <h1>"Success Stories:<br>
+            Happy clients are our greatest reward"</h1>
+        <p>In Serena's world, success stories are cherished treasures. Guided by a commitment to client happiness, she nurtures a culture defined by trust and excellence, ensuring every client journey is marked by satisfaction and success.</p>
+    </div>
+</div>
+
+<div class="clients-quote-container">
+    <div class="quote-content">
+        "In my world, client relationships aren't just business - they're cherished partnerships. Each collaboration brings new opportunities for learning, growth, and creating something truly extraordinary together."
+    </div>
+</div>
+
+<div class="clients-container">
+    <div class="clients-grid">
+        <div *ngFor="let val of clients; index as i">
+            <div class="card">
+                <img src="/assets/clients/{{ val.img }}" alt="{{ val.company }}">
+                <div class="card-inner">
+                    <div class="card-top">
+                        <h2>{{ val.name }}</h2>
+                        <p>{{ val.company }} </p>
+                        <p>{{ val.position }} </p>
+                    </div>
+                    <div class="card-bottom">
+                    <p>"{{ val.testimonial }}"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

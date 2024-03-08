@@ -1,0 +1,43 @@
+
+  <div class="blurry-background"></div>
+
+<div class="main-wrapper">
+    <div class="form-wrapper">
+        <div class="form-hero"></div>
+
+        <div class="form-section">
+            <div class="form-area">
+                <button class="facebook-link">find us on facebook</button>
+                <div class="divine-line">Or</div>
+                <form>
+                    <div class="names">
+                        <label>
+                            First name
+                            <input placeholder="" type="text" [(ngModel)]="firstName">
+                        </label>
+                        <label>
+                            Last name
+                            <input type="text" [(ngModel)]="lastName">
+                        </label>
+                    </div>
+                    <div class="email">
+                        <label>
+                            Email
+                            <input type="email" [(ngModel)]="email">
+                        </label>
+                    </div>
+                    <div class="message">
+                        <label class="textarea-label">
+                            Your message
+                            <textarea name="message" [(ngModel)]="message"></textarea>
+                        </label>
+                    </div>
+                    <button class="submit-button" type="submit" (click)="sendMessage()">send message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="illustration-credits">
+        <p>Designed by Serena Montgomery</p>
+    </div>
+</div>

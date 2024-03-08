@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:ital,wght@0,200..800;1,200..800&family=Nanum+Myeongjo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Link Google-Fonts:
+https://fonts.google.com/specimen/Nanum+Myeongjo 
+
+https://fonts.google.com/specimen/Fira+Sans */
+
+* {
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+}
+
+/* font-family for header:
+font-family: "Nanum Myeongjo", serif;
+font-weight: <weight>;
+font-style: normal;
+
+font-family for content: 
+font-family: "Fira Sans", sans-serif;
+font-weight: <weight>;
+font-style: normal;
+*/
+
+body {
+    font-family: "Fira Sans", sans-serif;
+}
+
+p {
+    font-family: "Fira Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Nanum Myeongjo", serif;
+}
+
+a {
+    font-family: "Fira Sans", sans-serif;
+}
+
+:root {
+    --clr-green: #838e0d;
+    --clr-darkgreen: #6c7500;
+    --clr-lightolivegreen: #545341;
+    --clr-olivegreen: #585134;
+    --clr-darkolivegreen: #3e3b2c;
+    /* --clr-lightbrown: #BB9A65; */
+    --clr-lightgrey: #A8B48B;
+    --clr-grey: #3a3d3b;
+    --clr-darkgrey: #212121;
+    --clr-darkergrey: #161616;
+}
